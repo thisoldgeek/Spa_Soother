@@ -37,5 +37,5 @@ sudo systemctl daemon-reload
 sudo systemctl enable spa_soother.service```
  
 To check on the service:
-```sudo systemctl status spa_soother.service```
+`sudo systemctl status spa_soother.service`
 
