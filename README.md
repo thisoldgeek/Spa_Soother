@@ -34,7 +34,7 @@ ExecStart=/usr/bin/python /home/pi/scripts/python/s2_spa_soother.py
 [Install]
 WantedBy=multi-user.target
 
-`sudo chmod644 /lib/systemd/system/spa_soother.service`
+`sudo chmod 644 /lib/systemd/system/spa_soother.service`
 
 `sudo systemctl daemon-reload`
 
