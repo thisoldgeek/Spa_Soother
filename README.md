@@ -18,6 +18,8 @@ See the post at thisoldgeek.blogspot.com under S2 Spa Soother
 ##*Configuration:*
 Add your own sound files using the blog posting instructions
 
+Download s2_spa_soother.py into /home/pi/scripts/python - service expects this directory.
+
 How To Autorun A Python Script On Boot Using systemd
 
 `sudo nano /lib/systemd/system/spa_soother.service`
@@ -43,4 +45,7 @@ WantedBy=multi-user.target
 To check on the service:
 
 `sudo systemctl status spa_soother.service`
+
+##*Notes:*
+* SVG drawing does not contain text on buttons or logo
 
