@@ -22,7 +22,9 @@ How To Autorun A Python Script On Boot Using systemd
 
 `sudo nano /lib/systemd/system/spa_soother.service`
 
-```Description=S2 Spa Soother
+###* Add the following Lines:*
+
+Description=S2 Spa Soother
 After=multi-user.target
 
 [Service]
@@ -30,11 +32,11 @@ Type=idle
 ExecStart=/usr/bin/python /home/pi/scripts/python/s2_spa_soother.py
 
 [Install]
-WantedBy=multi-user.target```
+WantedBy=multi-user.target
 
-```sudo chmod644 /lib/systemd/system/spa_soother.service
-sudo systemctl daemon-reload
-sudo systemctl enable spa_soother.service```
+`sudo chmod644 /lib/systemd/system/spa_soother.service`
+`sudo systemctl daemon-reload`
+`sudo systemctl enable spa_soother.service`
  
 To check on the service:
 `sudo systemctl status spa_soother.service`
