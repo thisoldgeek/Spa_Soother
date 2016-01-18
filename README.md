@@ -47,5 +47,6 @@ To check on the service:
 `sudo systemctl status spa_soother.service`
 
 ##*Notes:*
+* This is a difficult project, please read the Overview included in the git before attempting the build!
 * SVG drawing does not contain text on buttons or logo
 
