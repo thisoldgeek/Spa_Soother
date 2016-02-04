@@ -16,7 +16,7 @@ ShutdownTime = 1200   # Pi will send a signal to Rainbowduino after 20 minutes
 # Switch definitions, 
 # using BOARD description
 BUTTON1 = 11   #BCM 17, GPIO0 (zero)
-BUTTON2 = 12   #BCM 18, GPIO1
+BUTTON2 = 13   #BCM 27, GPIO2
 BUTTON3 = 15   #BCM 22, GPIO3
 BUTTON4 = 16   #BCM 23, GPIO4 
 
